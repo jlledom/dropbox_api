@@ -1,3 +1,5 @@
+require 'tempfile'
+
 describe DropboxApi::Endpoints::ContentUpload do
   subject { described_class.new(DropboxApi::ConnectionBuilder.new("bearer")) }
 
